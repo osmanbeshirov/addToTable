@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: aqua;
+}
+
+.text input {
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-right: 30px;
+    
+}
+
+#btn {
+    background-color: rgb(120, 120, 230);
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#btn:hover {
+    background-color: rgb(222, 235, 32);
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+}
+
+#cedvel{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#cedvel thead{
+    background-color: tomato;
+    color: #fff;
+    border-bottom: none;
+}
+
+#cedvel thead tr{
+    border-bottom: none;
+}
